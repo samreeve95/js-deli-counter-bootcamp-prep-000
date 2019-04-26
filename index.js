@@ -29,17 +29,20 @@ function nowServing(cur)
 function curLine(cur)
 {
   var i = 0;
+  var str = "";
   if (cur.length === 0)
   {
-    console.log("The line is currently empty");
+    str = "The line is currently empty";
   }
   else
   {
-    var str = "The line is currenly: ";
+    str = "The line is currenly: ";
     for (i=0;i<cur.length;i++)
     {
       str += i+1;
       str += `. ${cur[i]}, `;
     }
   }
+  
+  return 
 }
