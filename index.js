@@ -32,7 +32,7 @@ function curLine(cur)
   var str = "";
   if (cur.length === 0)
   {
-    str = "The line is currently empty";
+    str = "The line is currently empty.";
   }
   else
   {
@@ -44,5 +44,5 @@ function curLine(cur)
     }
   }
   
-  return 
+  return str;
 }
