@@ -36,7 +36,7 @@ function curLine(cur)
   }
   else
   {
-    str = "The line is currenly: ";
+    str = "The line is currently: ";
     for (i=0;i<cur.length;i++)
     {
       str += i+1;
