@@ -12,7 +12,14 @@ function takeANumber(cur, name)
 
 function nowServing(cur)
 {
-  
+  if ( cur.length > 0 )
+  {
+    return `${cur.pop()}`
+  }
+  else
+  {
+    return "There is nobody waiting to be served";
+  }
 }
 
 /*
