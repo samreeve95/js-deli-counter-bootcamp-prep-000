@@ -42,6 +42,8 @@ function currentLine(cur)
       str += i+1;
       str += `. ${cur[i]}, `;
     }
+    
+    cur.length -= 1;
   }
   
   return str;
