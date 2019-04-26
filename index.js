@@ -19,7 +19,7 @@ function nowServing(cur)
   }
   else
   {
-    return "There is nobody waiting to be served";
+    return "There is nobody waiting to be served!";
   }
 }
 
