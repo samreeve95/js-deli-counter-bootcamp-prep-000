@@ -2,7 +2,7 @@
 */
 function takeANumber(cur, name)
 {
-  console.log(`Welcome, ${name}. You are number ${cur.length} in line`);
+  return `Welcome, ${name}. You are number ${cur.length} in line`;
   
 }
 
