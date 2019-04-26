@@ -2,6 +2,7 @@
 */
 function takeANumber(cur, name)
 {
+  
   return `Welcome, ${name}. You are number ${cur.length} in line`;
   
 }
