@@ -43,7 +43,7 @@ function currentLine(cur)
       str += `. ${cur[i]}, `;
     }
     
-    cur.length -= 2;
+    str.length -= 2;
   }
   
   return str;
