@@ -15,7 +15,7 @@ function nowServing(cur)
 {
   if ( cur.length > 0 )
   {
-    return `${cur.pop()}`
+    return `Currently serving ${cur.pop()}`
   }
   else
   {
