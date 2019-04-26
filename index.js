@@ -27,10 +27,11 @@ function curLine(cur)
   }
   else
   {
-    var str = "The line is currenly ";
+    var str = "The line is currenly: ";
     for (i=0;i<cur.length;i++)
     {
-      str += `${i+1}
+      str += i+1;
+      str += `. ${cur[i]}, `;
     }
   }
 }
